@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Работы — DEVELOV</title>
+  <meta name="description" content="DEVELOV — личный бренд Максима Ломадзе (Новосибирск). Сайты, которые продают: лендинги, интернет-магазины, проекты под ключ. Сначала сайт, оплата только если он понравился.">
+  <link rel="icon" href="img/mark-small.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <link rel="stylesheet" href="css/apple.css?v=1">
+</head>
+<body>
+  <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+  <div class="lamp" aria-hidden="true"><span class="lamp__core"></span></div>
+  <header class="header" id="site-header">
+    <div class="wrap header__in">
+      <a class="brand" href="index.html" aria-label="DEVELOV"><img src="img/mark-small.png" alt="" width="38" height="31"><span>DEVELOV</span></a>
+      <nav class="nav" id="nav" aria-label="Основная навигация"><a href="index.html" >Главная</a><a href="works.html" aria-current="page">Работы</a><a href="about.html" >О нас</a></nav>
+      <a class="btn btn--glow header__cta" href="https://t.me/durov_wallet1" target="_blank" rel="noopener">Написать</a>
+      <button class="burger" id="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span></button>
+    </div>
+  </header>
+
+  <main id="top" class="inner-page"><section class="block" id="works">
+      <div class="wrap">
+        <div class="block__head"><p class="eyebrow">Работы</p><h1 class="h2">Примеры сайтов</h1>
+          <p class="text text--lead">Это пробные работы, сделанные по данным карточек 2ГИС. Каждую можно открыть прямо здесь и посмотреть, как она выглядит на компьютере и на телефоне. Две последние работы с 3D-анимацией по прокрутке сделаны как учебные макеты, не для реальных компаний.</p></div>
+        <div class="filters" id="filters" role="group" aria-label="Фильтр по нишам">
+          <button class="chip is-active" type="button" data-f="all">Все</button>
+          <button class="chip" type="button" data-f="barber">Барбершопы</button>
+          <button class="chip" type="button" data-f="spa">SPA и салоны</button>
+          <button class="chip" type="button" data-f="clean">Клининг</button>
+          <button class="chip" type="button" data-f="d3">3D-анимация</button>
+        </div>
+        <div class="cards" id="cards"></div>
+      </div>
+    </section></main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <span>© DEVELOV · Максим Ломадзе, Новосибирск</span>
+      <span><a href="https://t.me/durov_wallet1" target="_blank" rel="noopener">@durov_wallet1</a> · <a href="tel:+79237811844">+7 923 781-18-44</a></span>
+    </div>
+  </footer>
+
+  <div class="float" aria-label="Быстрая связь">
+    <a class="float__main" href="https://t.me/durov_wallet1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.3 18.9 18.65c-.23 1.01-.83 1.26-1.68.79l-4.63-3.41-2.23 2.15c-.25.25-.45.45-.93.45l.33-4.71 8.58-7.75c.37-.33-.08-.52-.58-.18L7.25 12.67 2.68 11.24c-.99-.31-1.01-.99.21-1.47l17.86-6.88c.83-.31 1.55.19 1.19 1.41z"/></svg>Написать</a>
+    <a href="tel:+79237811844"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Позвонить</a>
+  </div>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
+
+
